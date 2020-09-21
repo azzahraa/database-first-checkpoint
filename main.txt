@@ -1,0 +1,64 @@
+Presenting each of the RDBMS and their functionalities
+A comparison between the three RDBMS
+
+
+//MySQL
+MySQL is an open-source relational database management system. Its name is a combination of "My", the name of co-founder Michael Widenius's daughter, and "SQL", the abbreviation for Structured Query Language. it is a back-end languages that manage data and input from website users
+
+functionalities : 
+ SQL is the most popular language for adding, accessing and managing content in a database. It is most noted for its quick processing, proven reliability, ease and flexibility of use.
+
+//PostgreSQL
+PostgreSQL is a powerful, open source object-relational database system that uses and extends the SQL language combined with many features that safely store and scale the most complicated data workloads. it supports both SQL (relational) and JSON (non-relational) querying.
+It is a highly stable database management system, backed by more than 20 years of community development which has contributed to its high levels of resilience, integrity, and correctness. PostgreSQL is used as the primary data store or data warehouse for many web, mobile, geospatial, and analytics applications.
+
+functionalities : 
+User-defined types
+Table inheritance
+Sophisticated locking mechanism
+Foreign key referential integrity
+Views, rules, subquery
+Nested transactions (savepoints)
+Multi-version concurrency control (MVCC)
+Asynchronous replication
+
+Advantage of PostGRESQL
+- can run dynamic websites and web apps as a LAMP stack option
+- write-ahead logging makes it a highly fault-tolerant database
+- source code is freely available under an open source license. This allows you the freedom to use, modify, and implement it as per your business needs.
+- supports geographic objects so you can use it for location-based services and geographic information systems
+- supports geographic objects so it can be used as a geospatial data store for location-based services and geographic information systems
+To learn Postgres, you don't need much training as its easy to use
+Low maintenance administration for both embedded and enterprise use
+
+//SQL SERVER 
+Microsoft SQL Server is a relational database management system developed by Microsoft. As a database server, it is a software product with the primary function of storing and retrieving data as requested by other software applications—which may run either on the same computer or on another computer across a network. it's not a programming language but a query language. it is used to add, access, and process data stored in a computer database, you need a database management system such as MySQL Server.
+
+functionalities :
+
+CAST – cast a value of one type to another.
+CONVERT – convert a value of one type to another.
+CHOOSE – return one of the two values based on the result of the first argument.
+ISNULL – replace NULL with a specified value.
+ISNUMERIC – check if an expression is a valid numeric type.
+IIF – add if-else logic to a query.
+TRY_CAST – cast a value of one type to another and return NULL if the cast fails.
+TRY_CONVERT – convert a value of one type to another and return the value to be translated into the specified type. It returns NULL if the cast fails.
+TRY_PARSE – convert a string to a date/time or a number and return NULL if the conversion fails.
+Convert datetime to string – show you how to convert a datetime value to a string in a specified format.
+Convert string to datetime – describe how to convert a string to a datetime value.
+Convert datetime to date – convert a datetime to a date.
+
+//comparison
+
+SQL VS PostgreSQL
+SQL server is a database management system which is mainly used for e-commerce and providing different data warehousing solutions. PostgreSQL is an advanced version of SQL which provides support to different functions of SQL like foreign keys, subqueries, triggers, and different user-defined types and functions.
+
+SQL VS SQL SERVER
+The main difference between SQL and MS SQL is that SQL is a query language that is used in relation databases whereas MS SQL Server is itself a relational database management system (RDBMS) developed by Microsoft.
+
+A query language is basically used for retrieval and modification of information stored in databases. A DBMS is a software that is used to manage the database.
+
+Basically, it’s a collection of programs, features, and capabilities that allow you to interact with the database so as to perform tasks related to data definition, data updating, data retrieval, and user administration. A RDBMS is a database management system with row-based table structure.
+
+Most of the commercial RDBMS use SQL to interact with the database.
